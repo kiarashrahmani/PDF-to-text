@@ -5,7 +5,7 @@ This Python script utilizes the PyPDF2 library to convert PDF documents into pla
 ### Usage
 
 1. Replace `'your desired path for input.pdf'` with the path to the PDF file you want to convert.
-2. Modify `'your desired path for output.pdf'` to specify the location and name of the text file where the extracted text will be saved.
+2. Modify `'your desired path for output.txt'` to specify the location and name of the text file where the extracted text will be saved.
 3. Run the script to extract text from the PDF and save it to the specified text file.
 
 ### Example

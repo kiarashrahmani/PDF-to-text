@@ -7,7 +7,7 @@ Created on Sat Oct 28 14:36:36 2023
 import PyPDF2
 
 # Open the PDF file
-pdf_file = open('your desired path for input', 'rb')
+pdf_file = open('your desired path for input.pdf', 'rb')
 
 # Create a PDF reader object
 pdf_reader = PyPDF2.PdfReader(pdf_file)
@@ -23,7 +23,7 @@ for page in pdf_reader.pages:
 pdf_file.close()
 
 # Define the path for the text file
-output_file_path = 'your desired path for output'
+output_file_path = 'your desired path for output.txt'
 
 # Write the extracted text to the text file
 with open(output_file_path, 'w', encoding='utf-8') as text_file:
